@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ChatTupla.TupleSpaceServer/bin/Debug/netcoreapp3.1/ChatTupla.TupleSpaceServer.dll",
+            "args": [
+                "127.0.0.1",
+                "8989"
+            ],
+            "cwd": "${workspaceFolder}/ChatTupla.TupleSpaceServer",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (Client)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ChatTupla.TupleSpaceClient/bin/Debug/netcoreapp3.1/ChatTupla.TupleSpaceClient.dll",
+            // "args": [
+            //     "127.0.0.1",
+            //     "8989"
+            // ],
+            "cwd": "${workspaceFolder}/ChatTupla.TupleSpaceClient",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (GUI)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ChatTupla.GUI/bin/Debug/netcoreapp3.1/ChatTupla.GUI.dll",
+            // "args": [
+            //     "127.0.0.1",
+            //     "8989"
+            // ],
+            "cwd": "${workspaceFolder}/ChatTupla.GUI",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (Servidor)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ChatTupla.TupleSpaceServer/bin/Debug/netcoreapp3.1/ChatTupla.TupleSpaceServer.dll",
+            // "args": [
+            //     "127.0.0.1",
+            //     "8989"
+            // ],
+            "cwd": "${workspaceFolder}/ChatTupla.TupleSpaceServer",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
