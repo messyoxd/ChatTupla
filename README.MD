@@ -5,6 +5,8 @@ This program uses tuple space to make a chat
 
 [dotSpace](https://github.com/pSpaces/dotSpace) for tuple Space
 
+[dotSpace-objectSpace](https://github.com/tmt96/dotSpace-objectSpace) for a dotnet core implementation of dotSpace
+
 [MonoGame](https://github.com/MonoGame/MonoGame) for GUI
 #
 ## SOs Testados
